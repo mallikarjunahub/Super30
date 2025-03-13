@@ -1,0 +1,103 @@
+.header_main_div{
+    background-color: greenyellow;
+    height: 64px;
+}
+#header_part{
+    background-color: orchid;
+    margin-left:40px;
+    height: 64px;
+    width: 1177px;
+    display: flex;
+}
+#logo_search{
+    height: 64px;
+    background-color: aliceblue;
+    width: 883px;
+    display: flex;
+    justify-content: left;
+}
+#logo{
+    width: 134px;
+    height: 33.9px;
+    background-color: yellow;
+    display:flex;
+    margin: 15px 0px;
+}
+#search_main{
+    width: 749.19px;
+    height: 35.33px;
+    background-color:blue;
+    display:flex;
+    margin: 15px 0px;
+}
+#icon_bar{
+    width: 549px;
+    height: 35.33px;
+    background-color:red;
+    display:flex;
+}
+#search_icon{
+    width: 39px;
+    height: 34px;
+}
+input[type=text]{
+    width: 490px;
+
+}
+#empty{
+    width: 110px;
+}
+#loc_signin{
+    height: 64px;
+    background-color: rgb(162, 144, 121);
+    width: 188px;
+    display: flex;
+}
+
+#loc{
+    width: 98px;
+    height: 19px;
+    background-color: whitesmoke;
+    display:flex;
+    margin: 20px 0px;
+}
+
+#signin_button{
+    width: 67px;
+    height: 25px;
+    background-color:brown;
+    display:flex;
+    margin: 18px 0px;
+}
+#lines_symbol{
+    width: 22px;
+    height: 19px;
+    background-color: whitesmoke;
+    display:flex;
+    margin: 20px 0px;
+}
+#nav_div{
+    width: 1177px;
+    height: 40px;
+    background-color: wheat;
+    margin: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#nav_left_div{
+    width: 470px;
+}
+#nav_right_div{
+    width: 302px;
+    font-size: small;
+}
+#nav_left_div, #nav_right_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_opts1,.nav_opts2{
+    color: black;
+    text-decoration: none;
+}
+
