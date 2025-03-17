@@ -1,0 +1,88 @@
+
+.left_side_menu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: auto;
+    width: 100px;
+}
+.side_items{
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    margin: 10px;
+}
+.main_header{
+    width: 90%;
+    left: 100px;
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+}
+.search_bar_microphone{
+    display: flex;
+    align-items: center;
+}
+
+.search_bar_symbol input[type=text]{
+    border-radius: 20px;
+    height: 35px;
+    width: 550px;
+    border: 1px solid gray;
+    font-size: large;
+}
+.create{
+    height: 35px;
+    width: 90px;
+    border-radius: 20px;
+    font-size: medium;
+    border: none;
+}
+.create_bell_profile_logo{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile_logo_symbol img{
+    border-radius: 50%;
+    margin-top: 7%;
+}
+.content{
+    position: relative;
+    left: 100px;
+    display: flex;
+    width: 91%;
+}
+.video_and_icons{
+    display: flex;
+    margin-left: 400px;
+}
+.Shorts_video video{
+    width: 270px;
+    border-radius: 12px;
+}
+.Shorts_symbols{
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+.icon_items{
+    display: flex;
+    background-color: #edecec;
+    border-radius: 50%;
+    padding:10px;
+}
+.icon_text{
+    margin-top: -13px;
+}
+.control_icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin : 200px 0px 0px 320px;
+    height: 150px;
+}
