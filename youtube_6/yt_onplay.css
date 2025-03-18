@@ -1,0 +1,137 @@
+.main_header{
+    width: 90%;
+    left: 100px;
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+}
+.search_bar_microphone{
+    display: flex;
+    align-items: center;
+}
+
+.search_bar_symbol input[type=text]{
+    border-radius: 20px;
+    height: 35px;
+    width: 550px;
+    border: 1px solid gray;
+    font-size: large;
+}
+.create{
+    height: 35px;
+    width: 90px;
+    border-radius: 20px;
+    font-size: medium;
+    border: none;
+}
+.create_bell_profile_logo, .like_share{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile_logo_symbol img{
+    border-radius: 50%;
+    margin-top: 7%;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    width: 87%;
+    margin: auto;
+}
+.main_video{
+    width: 650px;
+    height: 370px;
+}
+.main_video video{
+    border-radius: 20px;
+}
+.main_video_title{
+    font-weight: bold;
+    font-family : Roboto, Arial, sans-serif;
+    font-size: 20px;
+}
+.side_videos{
+    width: 400px;
+}
+.trending_terms{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.nav_items{
+    background-color: rgb(245, 241, 241);
+    font-family : Roboto, Arial, sans-serif;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: small;
+    font-weight:bolder;
+    letter-spacing: 0.5px;
+    }
+    .small_videos{
+        width: 400px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .small_videos video, .side_short_video video{
+        border-radius: 10px;
+    }
+    .small1{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+
+    .icon_items{
+        width :34px;
+        display: flex;
+        background-color: #edecec;
+        border-radius: 50%;
+        padding:10px;
+    }
+    .like_sub_main_div{
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 0px;
+        align-items: center;
+    }
+    .logo_channel_name{
+        width: 165px;
+        display: flex;
+        justify-content: space-between; 
+    }
+    .subscribe_icon button{
+        color: white;
+        background-color: black;
+    }
+    .like_button{
+        width: 130px;
+        border-radius: 20px;
+        border: none;
+    }
+    .like_share{
+        width: 300px;
+    }
+    .side_shorts{
+        position: relative;
+        left:800px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 350px;
+    }
+    .side_short_videos{
+        display: flex;
+        justify-content: space-between;
+    }
+.A{
+    height: 30px;
+    display: flex;
+    justify-content: left;
+    width:100px;
+    margin: 10px;
+
+    }
