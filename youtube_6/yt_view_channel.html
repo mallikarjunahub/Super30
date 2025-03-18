@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="yt_view_channel.css">
+    <div class="left_side_menu">
+        <div class="side_items"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKUlEQVR4nO3TwQkAQBACMftv2itiQThIwLevSfhBR8vsCPaqIzirjph63j2bZfjaWHEAAAAASUVORK5CYII=" alt="menu"></div>
+        <div class="side_items"><i class="fa-solid fa-house"></i>Home</div>
+        <div class="side_items">
+            <a href="yt_shorts.html" target="_blank" style="text-decoration: none; color: inherit;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M 15.886719 1 C 14.974131 1 14.077693 1.2286385 13.287109 1.65625 L 5.5664062 5.7207031 L 5.5664062 5.71875 C 3.7637541 6.6652034 2.6367187 8.5322799 2.6367188 10.566406 C 2.6367188 11.911504 3.2225585 13.082394 4.046875 14.046875 C 3.2161002 15.0216 2.6367187 16.195885 2.6367188 17.521484 C 2.6367188 20.532674 5.1018215 23 8.1132812 23 C 9.0303925 23 9.9287625 22.773103 10.716797 22.341797 L 18.292969 18.353516 L 18.259766 18.369141 C 20.151702 17.459981 21.363281 15.531898 21.363281 13.433594 C 21.363281 12.088496 20.777441 10.917606 19.953125 9.953125 C 20.783897 8.9783946 21.363281 7.8041153 21.363281 6.4785156 C 21.363281 3.4673258 18.898179 1 15.886719 1 z M 15.886719 3 C 17.813259 3 19.363281 4.5517054 19.363281 6.4785156 C 19.363281 7.5499776 18.888956 8.5222239 18.080078 9.1777344 L 17.121094 9.9550781 L 18.080078 10.732422 C 18.871608 11.373406 19.363281 12.344494 19.363281 13.433594 C 19.363281 14.75529 18.584642 15.993566 17.392578 16.566406 L 17.376953 16.574219 L 9.7636719 20.583984 L 9.7578125 20.587891 C 9.2778524 20.850605 8.6961702 21 8.1132812 21 C 6.1867412 21 4.6367188 19.448295 4.6367188 17.521484 C 4.6367188 16.450022 5.1110438 15.477776 5.9199219 14.822266 L 6.8789062 14.044922 L 5.9199219 13.267578 C 5.1283915 12.626594 4.6367188 11.655506 4.6367188 10.566406 C 4.6367188 9.266533 5.3427459 8.095781 6.4960938 7.4902344 L 6.4980469 7.4902344 L 14.232422 3.4179688 L 14.238281 3.4140625 C 14.729251 3.1482632 15.309951 3 15.886719 3 z M 10 9 L 10 15 L 15 12 L 10 9 z"></path>
+                </svg>Shorts
+            </a>
+        </div>
+        <div class="side_items"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAeElEQVR4nO2UOwqAMBAFp/QcnsYQvJN3ynlsEs9guzaxFLIxS/Az8KrADrwHgZ9KPLABUpgEOI0gKY5LTuT1eGXvot2jpnfR7HE+3kWu7nQXBGC0FAiwAwswWAkkZwXmRwp2y4qC9cil9BMk66/CNZJEYGrQBB/hAOTlnMw2VD7bAAAAAElFTkSuQmCC" alt="video-playlist">subscriptions</div>
+        <div class="side_items"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAACdElEQVR4nO2WzUuUURTGf1DTJvGjwhYJtqi0nZm1icR1gqH/QgS1aVVORRshKaJViC0sChcqLfoDSscQ3Eat+txERUrYx0zkR9TEieeFy2Xu++FMC8EHLvPOPec599zzce+FTWwwHAQuAjPAS+CHhn1PA3mg/X8sfAQoAOWUYx44VouFc8Ao8EeGl4C7QB/QBmzXsO+Tkn2RrnFGZGNd2AHMythP4CpQn4LXAAyLU1bkmrIunnNC/lEpcNEj56IaKCgqLjqAd7IxB2zL4sCoiO+BPZ7sCvA7kPshT9e4HySzdKTCUeXPQthZYee2+ApwAWjUOKc5k3V7nC5gWTYPp3FgVh5bzn08kcwW95F3cu7jmmTWvol9Xla1Vyq4kuS260pFa7JioDCj7rCOCeKSlO4E5MUUDnwPcO9JPhjnwLSUrKfj0mM5D6UgFOZ+yR/HOfBGSvsC8j7JV7STJu3cFl9VER4PcNvEtWM7iJKU6mJ0hgJtaHOXY3h10itV6wBqtRnpF/Ud2nmE+oQa+YdXUtpP7dEu2y+qKcJqMCDbj+KU8lKyW83HbuAMMAE811kR5f6z5iaBs0BLBf596Z9PE6YlHR6GXerh1QzvgV/AOLBTNhqdg+hAUqgKUhzWrfjMMfoQOA0ccq7YLXLSzvlTwAPH2afAVuC6/luKE9HlXEaDTu/uJT1agdfOvbGsVPmXWxAjIn/T7w2y46Zn41YWck69HeX0E9CcgW8Fu+DwMz9IUI6js7+sIjpBMnqBrw5vXU8yNxJjXoXbzm5roWaNXs0terpjKsKq0aFCTNuGb/Wyqjk6gSlFYc1ZcE11MqUW3cTGwV8KY/HdlJjVvQAAAABJRU5ErkJggg==" alt="test-account">you</div>
+    </div>
+    <header class="main_header">
+        <div class="yt_logo"><img src="yt_logo.webp" width="100px" alt="yt_logo"></div>
+        <div class="search_bar_microphone">
+            <div class="search_bar_symbol"><input type="text" placeholder="   search"></div>
+            <div class="microphone_symbol"><img src="microphone.png" width="30px"></div>
+        </div>
+        <div class="create_bell_profile_logo">
+            <div class="create_symbol"><button class="create">+create</button></div>
+            <div class="bell_symbol" style="margin-top : 10px;"><i class="far fa-bell"></i></div>
+            <div class="profile_logo_symbol"><img src="profile_logo.png" alt="profile_logo" width="45px" height="30px"></div>
+        </div>        
+    </header>
+    <div class="content">
+        <div class="banner">
+            <img src="banner.png" alt="banner image" width="100%" height="150px">
+        </div>
+        <div class="profile_photo_channel_name">
+            <div class="profile_photo">
+                <img src="profile_photo.jpg" alt="profile_photo" width="150px" height="150px">
+            </div>
+            <div class="channel_details">
+                <div class="channel_name">Mallikarjuna Tech Journey</div>
+                <div class="channel_handle"><span>@smpgamingfreefire5621</span> • 85 subscribers • 37 videos</div>
+                <div class="description">Hello everyone👋👋 ... More</div>
+                <div class="Manage_buttons">
+                    <button class="create">Customize Channel</button>
+                    <button class="create">Manage Videos</button>
+                </div>
+            </div>
+        </div>
+        <div class="nav_bar">
+            <div class="nev_iem">Home</div>
+            <div class="nev_iem">Videos</div>
+            <div class="nev_iem">Shorts</div>
+            <div class="nev_iem">Live</div>
+            <div class="nev_iem">Playlists</div>
+            <div class="nev_iem">Posts</div>
+        </div>
+        <div><hr style="color: rgb(235, 231, 231);"></div>
+        <div class="intro">
+            <div class="intro_video">
+                <video src="video3.mp4" width="450px" height="238px" autoplay controls></video>
+            </div>
+            <div class="intro_details">
+                <div class="intro_title">intro of our channel</div>
+                <div class="intro_views"> 191 views . 4 years ago</div>
+                <div class="intro_views">YouTube channel introduction</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
