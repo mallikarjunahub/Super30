@@ -15,7 +15,8 @@
 .main_header{
     width: 90%;
     left: 100px;
-    position:relative;
+    position:sticky;
+    top: 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -52,7 +53,8 @@
     display: flex;
     justify-content: space-evenly;
     left: 100px;
-    position:relative;
+    position:sticky;
+    top: 60px;
     width: 90%;
     flex-wrap: wrap;
 }
