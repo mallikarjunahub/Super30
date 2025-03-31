@@ -1,14 +1,15 @@
-var Details_titles=document.querySelector('.tech');
-var Details_contents=document.querySelector('.Details_contents');
+var Details_titles=document.getElementsByClassName('tech');
+var Details_contents=document.getElementsByClassName('Details_contents');
 
-function opentab(tabname){
-    for(Details_tille of Details_titles){
-        Details_tille.ClassList.remove("active-link")
+function opentab(tabname, event){
+    for(let Details_tille of Details_titles){
+        Details_tille.classList.remove("active-link")
     }
-    for(Details_content of Details_contents){
-        Details_content.ClassList.remove("active-tab")
+    for(let Details_content of Details_contents){
+        Details_content.classList.remove("active-tab")
     }
-    Event.currentTarget.ClassList.add('active-link');
+    event.currentTarget.classList.add('active-link');
+    console.log("Clicked tab:", tabname);
     document.getElementById(tabname).classList.add("active-tab");
 }
 

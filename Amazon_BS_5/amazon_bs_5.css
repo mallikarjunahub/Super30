@@ -1,0 +1,14 @@
+.abc{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+
+}
+.c3,.c4, .c1, .c2{
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+}
