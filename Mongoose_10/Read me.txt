@@ -1,0 +1,27 @@
+Read me.md:
+-----------
+
+created a folder Mongoose_10
+
+created two folders and 4 files inside it.
+	1. models - created student.js file inside the folder which stores code of database schemas
+	2. routes - created studentRoutes.js file inside the folder which store routes code in student api.
+	3. .env - store keys and tokens
+
+initialize as node folder and install express, dotenv & mongoose.
+
+create http server using express in server.js file
+
+create database schema "students" using mongoose in student.js file and export studentsModel as object.
+
+added routes in studentRoutes.js file and passed routes coming from server.js to this file.
+
+connected database in studentRoutes.js and fetched schema from student.js
+
+written crud operations logic as per http methods
+
+configure your own port num and mongodb url before you start the project, check ".env.example" file
+
+
+
+	
