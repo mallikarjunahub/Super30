@@ -2,10 +2,10 @@ import mongoose from "mongoose";
 
 const Schema = mongoose.Schema;
 const students = new Schema({
-  name: String,
+  name: { type: String, required: true },
   age: Number,
   department: String,
   admissionDate: Date,
 });
 
-export const studentsModel = mongoose.model("students", students);
+export const studentModel = mongoose.model("students", students);
